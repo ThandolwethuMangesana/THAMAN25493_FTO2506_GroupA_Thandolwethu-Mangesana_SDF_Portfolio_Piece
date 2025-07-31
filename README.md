@@ -1,121 +1,107 @@
-# 💼 SDFPP Resume Project
+# Resume Project
 
-Welcome to your first major **portfolio project** in the Software Development Program is a resume project (SDFPP). In this challenge, using a [Figma design file](https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1) as reference, you’ll create your very own online resume — a personal website that shows off your skills, experience, and code style using **HTML and CSS**.
-
-This is not just practice — this is something you can proudly include in your portfolio and share with future employers!
+A clean, modern, and responsive personal resume website built with **Tailwind CSS** and **Font Awesome** icons. This project showcases my profile, proficiency, skills, projects, education, tools, and work experience in a visually appealing layout optimized for desktop and mobile screens.
 
 ---
 
-## 📌 Project Overview
+## Table of Contents
 
-**Project Name:** Resume Project  
-**Difficulty:** Beginner–Intermediate  
-**Goal:** Replicate a Figma design of a resume site as accurately as possible using HTML and CSS  
-**Tools Required:** HTML5, CSS3, Git, GitHub  
-**Deployment:** Not required — site must run locally in browser  
-**Submission Includes:**
-- A link to your GitHub repo
-- A screen recording of your presentation (5–10 minutes)
-- A complete README (you’re reading it!)
-
- 🎨Link to Figma Reference File: https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1
+- [About](#about)  
+- [Features](#features)  
+- [Technologies](#technologies)  
+- [Setup](#setup)  
+- [Usage](#usage)  
+- [Folder Structure](#folder-structure)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Contact](#contact)  
 
 ---
 
-## 🧠 What You'll Build
+## About
 
-You will build a fully responsive, Figma-matching resume site that includes the following sections:
+This Resume Project is a personal portfolio webpage designed to display my professional background, skills, projects, and contact information. It is fully responsive, uses semantic HTML5, and leverages Tailwind CSS utility classes for styling.
 
-- Profile & Summary
-- Proficiency Bars
-- Skills Tags
-- Projects Grid
-- Education & Work History
-- Tools Section
-- Contact Footer
+The design emphasizes clarity, accessibility, and ease of navigation, making it ideal for sharing with potential employers or collaborators.
 
 ---
 
-## 🧪 How You’ll Be Marked
+## Features
 
-Your project will be assessed using **two components**:
-
-### ✅ 1. Code & Layout Marking 
-Each section of your resume site is scored based on:
-- Use of semantic HTML and correct structure
-- Accurate styling, spacing, typography, and colour matching the Figma
-- Pixel accuracy for layout and alignment
-- Responsive layout on mobile screens
-- Clean and well-structured code
-- Functional and visually polished components
-- Accessibility (e.g., alt text for images and icons)
-
-> A full breakdown of the scoring rubric is available on your Dashboard. Each feature is mapped to a clear user story and assigned a difficulty rating. Some features offer bonus points for pixel-perfection ✨
-
-### 🎙️ 2. Recorded Presentation 
-You must record a **5–10 minute** screen presentation of your project using Loom, OBS, or any screen recorder.
-
-You will be scored on:
-- How well you explain your code and decisions
-- Understanding and communication of the project brief
-- Visual walkthrough of your site and responsiveness
-- Presentation skills (confidence, clarity, visual aids)
-
-📎 [View the Presentation Template Here](https://github.com/CodeSpace-Academy/SDFPP-2025/blob/main/project%20guide/presentation_template.md)
+- **Profile Section** with photo, name, and bio summary  
+- **Proficiency** bars showing skill levels  
+- **Skills** tags for quick skill recognition  
+- **Projects** section with featured and placeholder projects  
+- **Education & Tools** sections with detailed educational background and icons representing programming languages, design, and tools  
+- **Experience** timeline listing multiple roles with responsibilities  
+- **Footer** with contact info and social media links  
+- Fully responsive layout that adapts to various screen sizes
 
 ---
 
-## ✅ Submission Requirements
+## Technologies
 
-To pass this project, you must submit the following:
-
-| Task | Required |
-|------|----------|
-| All required sections built | ✅ |
-| Semantic, readable HTML | ✅ |
-| Well-organised, responsive CSS | ✅ |
-| GitHub repo with clean commit history | ✅ |
-| README file with project info | ✅ |
-| 5–10 minute video presentation | ✅ |
+- **HTML5**  
+- **Tailwind CSS** (via CDN)  
+- **Font Awesome 6.5** (for icons)  
+- Responsive design principles
 
 ---
 
-## 🧰 Project Setup Instructions
+## Setup
 
-1. Clone your starter project folder (or create a new repo)
-2. Build your site using HTML and CSS
-3. Test it on different screen sizes
-4. Use Git to track your progress with frequent commits
-5. Record your presentation walkthrough
-6. Submit your GitHub link + recording link via the LMS
+1. Clone the repository or download the project files:
 
----
+   ```bash
+   git clone https://github.com/ThandolwethuMangesana/resume-project.git
+   ```
 
-## 🎯 Extra Credit (Bonus Points)
+2. Navigate to the project directory:
 
-You can earn bonus marks for:
-- A **pixel-perfect build** that is accurate within 10px of the Figma
-- Thoughtful use of layout tools (Grid, Flexbox)
-- Polished hover states and accessibility improvements
-- High-quality code that’s modular and scalable
+   ```bash
+   cd resume-project
+   ```
 
----
+3. Ensure you have internet connectivity to load the Tailwind CSS and Font Awesome via CDN.
 
-## 📩 Submit Your Project
-
-- ✅ Make sure the naming convention of your repo is correct
-- ✅ Include this README file in your repo  
-- ✅ Add your 5–10 min presentation video link to Google Drive (or similar) and share it with your coach 
-- ✅ Paste your video link in your README 
-- ✅ Push your project to your SDFPP GitHub repo
-- ✅ Submit your SDFPP GitHub repo link to the LMS
+4. Open the `index.html` file in your preferred web browser.
 
 ---
 
-## 🙌 Good Luck!
+## Usage
 
-Take your time. Follow the walkthrough. Ask for help if you need it.
+- Replace `Profile.jpg` in the root folder to update your profile picture.  
+- Edit the personal information, skills, projects, education, and experience sections directly in the `index.html` file.  
+- Customize styles by modifying or adding Tailwind utility classes within the HTML.  
+- Add or remove projects by duplicating or removing project cards in the Projects section.
 
-You're not just building a resume site — you're building confidence, skills, and a real piece of your future portfolio.
+---
 
-**You’ve got this. Let’s go! 🚀**
+## Folder Structure
+
+```
+resume-project/
+├── index.html
+├── Profile.jpg
+└── README.md
+```
+
+---
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository, make improvements, and submit pull requests. Please ensure code formatting consistency and responsiveness in all changes.
+
+---
+
+## Contact
+
+**Thandolwethu Mangesana**  
+Email: mangesanathandolwethu@gmail.com  
+Phone: 0656125911  
+LinkedIn: [linkedin.com/in/thandolwethu-mangesana](https://www.linkedin.com/in/thandolwethu-mangesana)  
+GitHub: [github.com/ThandolwethuMangesana](https://github.com/ThandolwethuMangesana)
+
+---
+
+*Thank you for visiting my portfolio!*
