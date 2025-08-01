@@ -85,6 +85,12 @@ resume-project/
 ├── Profile.jpg
 └── README.md
 ```
+---
+
+## 🎥 Project Presentation
+
+Watch the full walkthrough of my resume project on Loom:  
+👉 [Click to watch the video](https://www.loom.com/share/158526ff01a14046ace89096a38f9799?sid=b6592f34-a676-4c86-9b06-28e35f52682e)
 
 ---
 
